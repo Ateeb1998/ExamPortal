@@ -7,8 +7,8 @@ const Card = () => {
   return (
 
     <div className='-mt-16 flex flex-col md:flex-row border-8 rounded-xl border-white w-fit mx-auto z-10'>
-      <div>
-        <div className=' w-fit flex space-x-4 py-5 px-10 items-center hover:shadow-lg transition-shadow bg-green-200 rounded-l-lg'>
+      <div className='flex-1'>
+        <div className='w-fit flex space-x-4 py-5 px-10 items-center hover:shadow-lg transition-shadow bg-green-200 rounded-l-lg'>
           <div className='text-green-500 text-4xl sm:text-5xl' aria-label="Shield icon"><BsShieldFillCheck /></div>
           <div className='flex flex-col'>
             <span>Registered Students</span>
