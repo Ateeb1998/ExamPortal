@@ -3,7 +3,7 @@ import FullStackDevelopmentCareerProgramCourseCard from '/FullStackDevelopmentCa
 
 const Courses = () => {
   return (
-    <div className='py-2 w-screen h-fit bg-gradient-to-b from-green-50 to-blue-100 mt-5'>
+    <div className='ml-20 sm:ml-0 py-2 w-screen h-fit bg-gradient-to-b from-green-50 to-blue-100 mt-5'>
         <div className='ml-3 sm:ml-56 text-3xl flex gap-2'>
             <span className='border-2 border-green-500 rounded-r-md'></span>
             <p>Explore Programs</p>
